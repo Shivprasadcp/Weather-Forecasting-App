@@ -38,6 +38,21 @@ label4.place(x=50,y=215)
 label5=Label(root,text="Description",font=('Helvetica',11),fg="white",bg="black")
 label5.place(x=50,y=235)
 
+#search box
+
+Search_image=PhotoImage(file="Images/search_box.png")
+myimage=Label(image=Search_image,bg="#57adff")
+myimage.place(x=150,y=70)
+
+textfield=tk.Entry(root,justify='center',width=15,font=('poppins',25,'bold'),bg="black",border=0,fg="white")
+textfield.place(x=250,y=80)
+textfield.focus()
+
+Search_icon=PhotoImage(file="Images/search_icon.png")
+myimage_icon=Button(image=Search_icon,borderwidth=0,cursor='hand2',bg="#203243")
+myimage_icon.place(x=725,y=73)
+
+
 
 
 
